@@ -1,0 +1,144 @@
+.checkout-min {
+  min-height: 90vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 16px;
+  color: #fff;
+}
+
+.checkout-wrapper {
+  width: 100%;
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.checkout-form,
+.order-box {
+  background: linear-gradient(180deg, #0e0e0e, #0a0a0a);
+  border-radius: 18px;
+  padding: 22px;
+  height: fit-content;
+}
+
+.how-it-works {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b5b5b5;
+  line-height: 1.45;
+  margin-bottom: 18px;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: #888;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.checkout-form select,
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  background: #0f0f0f;
+  border: 1px solid #222;
+  color: #fff;
+  padding: 11px 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.checkout-form textarea {
+  resize: none;
+  height: 72px;
+}
+
+.checkout-form select {
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 13px;
+  background: #fff;
+  color: #000;
+  border-radius: 999px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.order-box {
+  display: flex;
+  flex-direction: column;
+  max-height: 360px;
+}
+
+.order-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.order-list::-webkit-scrollbar {
+  width: 4px;
+}
+.order-list::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+.order-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.order-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-item img {
+  width: 46px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.item-price {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.order-total {
+  font-size: 13px;
+  padding-top: 10px;
+  border-top: 1px solid #222;
+  margin-top: 8px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .checkout-wrapper {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+
+  .order-box {
+    max-height: none;
+  }
+}

@@ -1,0 +1,19 @@
+import React from "react";
+import { CartProvider } from "../../utils/CartContext";
+import Header from "../Header";
+import Footer from "../Footer";
+import { AppRoutes } from "../Routes/Routes";
+
+function App() {
+  return (
+    <CartProvider>
+      <div className="wrapper">
+        <Header />
+        <AppRoutes />
+        <Footer />
+      </div>
+    </CartProvider>
+  );
+}
+
+export default App;
