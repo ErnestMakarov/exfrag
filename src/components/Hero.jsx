@@ -28,7 +28,7 @@ const Hero = ({ scrollToProducts }) => {
               Shop now
             </button>
 
-            <a className="hero-about-btn" href="/about">Abaut us</a>
+            <a className="hero-about-btn" href="/about">About us</a>
         </div> 
         
       </div>
