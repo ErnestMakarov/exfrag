@@ -41,7 +41,7 @@ export const products = [
     otherImages: [ jeans11, jeans12, jeans13],
     desc: "Waist 88 Hips 106 Length 107 Hem 68",
     category: "jeans",
-    price: 70
+    price: 80
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ export const products = [
     otherImages: [ jeans21],
     desc: "Waist 86 Hips 106 Length 100 Hem 60",
     category: "jeans",
-    price: 50
+    price: 60
   },
   {
     id: 3,
@@ -68,7 +68,7 @@ export const products = [
     otherImages: [ jeans41],
     desc: "Waist 80 Hips 100 Length 98 Hem 80",
     category: "jeans",
-    price: 70
+    price: 80
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ export const products = [
     otherImages: [ jeans51],
     desc: "Waist 80 Hips 100 Length 112 Hem 70",
     category: "jeans",
-    price: 90
+    price: 80
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ export const products = [
     otherImages: [ jeans81],
     desc: "Waist 90 Hips 95 Length 112 Hem 70",
     category: "jeans",
-    price: 90
+    price: 80
   },
   {
     id: 9,
@@ -113,7 +113,7 @@ export const products = [
     otherImages: [ jeans91],
     desc: "Waist 84 Hips 112 Length 105 Hem 72",
     category: "jeans",
-    price: 90
+    price: 80
   },
   {
     id: 10,
@@ -122,7 +122,7 @@ export const products = [
     otherImages: [ blazer1],
     desc: "Chest (½) 96½  Waist 88 Shoulder Width 45 Sleeve Length 63  Length 50",
     category: "blazer",
-    price: 70
+    price: 60
   },
   {
     id: 11,
@@ -131,7 +131,7 @@ export const products = [
     otherImages: [ ],
     desc: "bag",
     category: "bag",
-    price: 50
+    price: 40
   },
 ];
 
