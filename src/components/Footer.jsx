@@ -22,7 +22,7 @@ export default function Footer() {
                         <a target='blank' href="https://www.tiktok.com/@.exfrag?_r=1&_t=ZN-92KzW5hNLKI">
                             <img src={TicTok} alt="TikTok" />
                         </a>
-                        <a target='blank' href="">
+                        <a target='blank' href="https://t.me/exfragshop">
                             <img src={Telegram} alt="Telegram" />
                         </a>
                     </div>
